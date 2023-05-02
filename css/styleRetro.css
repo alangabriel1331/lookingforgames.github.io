@@ -1,0 +1,80 @@
+
+h1 {
+    text-align: center;
+} 
+
+h2 {
+    text-align: center;
+    
+}
+
+body {
+
+    background-color: rgb(7, 80, 80);
+    color: azure;
+    
+
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+    background-color: #dddddd;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #0f6b66;
+}
+
+  
+li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: #1d7c7c;
+  }
+
+.grilla {
+    
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.contJuego img {
+    padding: 5%;
+    object-fit: cover;
+    width: 90%;
+    height: 14rem;
+}
+.contJuego  h2{
+    background-color: rgb(40, 173, 167);
+    padding: 10px 5px 10px 20px;
+    }
+
+.contJuego p{
+    background-color: rgb(30, 107, 107);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    padding: 0px 20px 20px 20px;
+    
+}
+.contJuego { 
+    background-color: rgb(30, 107, 107);
+    color:azure;
+    margin: 5px;
+}
+
