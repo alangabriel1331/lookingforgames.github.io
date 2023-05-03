@@ -6,29 +6,27 @@
     <meta name="description" content="Todas las novedades de los juegos de ayer, hoy y siempre.">
     <meta name="keywords" content="gaming, games, retro, news, noticias, novedades, ayer, hoy, siempre, juegos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css"> <!--falta css-->
     <link rel="stylesheet" href="css/style.css">
     <title>LFG | Tu portal gaming</title>
 </head>
-
-
 <!--BODY-->
 <!--Navbar-->
 <body>
-  <header class="header">
+<header>
     <div class="logo">
         <img src="../images/logo.png" alt="Logo LFG">
     </div>
     <nav class="navbar">
       <ul class="nav-links">
-        <li><a href="/index.html">INICIO</a></li>
-        <li><a href="/Juegos/">JUEGOS</a></li> <!--no se puede hacer acceso porque debería ser lista desplegable-->
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">JUEGOS</a></li>
         <li><a href="#">COMUNIDAD</a></li>
         <li><a href="#">NOSOTROS</a></li>
-        <li><a href="#">LOGIN</a></li>
-        
+        <li><a href="#">LOGIN</a></li> 
+        <button>Contacto</button> 
+      </ul>
     </nav>
-  </header>
+</header>
 <!--Fin Navbar-->
 <!--Carrusel-->
 <section class="carrousel">
@@ -41,43 +39,52 @@
 </section>
 <!--Fin Carrusel--> 
 <!--Noticias breves-->
-<section class="noticias-breves">       
-  <article>
-    <h2>Título de la noticia</h2>
-    <img src="imagen.jpg" alt="Imagen de la noticia">
-    <p>Texto resumido de la noticia...</p>
-    <a href="noticia_completa.html">Leer más...</a>
-  </article>
-  <article>
-    <h2>Título de la noticia</h2>
-    <img src="imagen.jpg" alt="Imagen de la noticia">
-    <p>Texto resumido de la noticia...</p>
-    <a href="noticia_completa.html">Leer más</a>
-  </article>
-  <article>
-    <h2>Título de la noticia</h2>
-    <img src="imagen.jpg" alt="Imagen de la noticia">
-    <p>Texto resumido de la noticia...</p>
-    <a href="noticia_completa.html">Leer más</a>
-  </article>
-  <article>
-    <h2>Título de la noticia</h2>
-    <img src="imagen.jpg" alt="Imagen de la noticia">
-    <p>Texto resumido de la noticia...</p>
-    <a href="noticia_completa.html">Leer más</a>
-  </article>
-  <article>
-    <h2>Título de la noticia</h2>
-    <img src="imagen.jpg" alt="Imagen de la noticia">
-    <p>Texto resumido de la noticia...</p>
-    <a href="noticia_completa.html">Leer más</a>
-  </article>
-  <article>
-    <h2>Título de la noticia</h2>
-    <img src="imagen.jpg" alt="Imagen de la noticia">
-    <p>Texto resumido de la noticia...</p>
-    <a href="noticia_completa.html">Leer más</a>
-  </article>
+<section>
+  <ul id="noticias">
+    <li class="noticias-breves">
+      <article>
+        <img src="imagen.jpg" alt="Imagen de la noticia">
+        <h2>Título de la noticia</h2>
+        <p>Texto resumido de la noticia...</p>
+        <a href="noticia_completa.html">Leer más...</a>
+      </article>
+    </li>
+    <li class="noticias-breves">
+      <article>
+        <img src="imagen.jpg" alt="Imagen de la noticia">
+        <h2>Título de la noticia</h2>
+        <p>Texto resumido de la noticia...</p>
+        <a href="noticia_completa.html">Leer más...</a>
+      </article>
+    </li>
+    <li class="noticias-breves">
+      <article>
+        <img src="imagen.jpg" alt="Imagen de la noticia">
+        <h2>Título de la noticia</h2>
+        <p>Texto resumido de la noticia...</p>
+        <a href="noticia_completa.html">Leer más...</a>
+      </article>
+    </li>
+    <li class="noticias-breves">
+      <article>
+        <img src="imagen.jpg" alt="Imagen de la noticia">
+        <h2>Título de la noticia</h2>
+        <p>Texto resumido de la noticia...</p>
+        <a href="noticia_completa.html">Leer más...</a>
+      </article>
+    </li>
+    <li class="noticias-breves">
+      <article>
+        <img src="imagen.jpg" alt="Imagen de la noticia">
+        <h2>Título de la noticia</h2>
+        <p>Texto resumido de la noticia...</p>
+        <a href="noticia_completa.html">Leer más...</a>
+      </article>
+    </li>
+    
+  </ul> 
+<!--Fin Noticias Breves-->        
+<!--ASIDE-->
     <div class="aside">
       <h3>PEDIR PERMISOS EN STEAM PARA USAR SU API Y MOSTRAR LOS JUEGOS EN DESCUENTO(U OTRA COSA)</h3>
     </div>
@@ -85,12 +92,18 @@
       <h4>icono de las redes sociales FACEBOKK, TWITTER, DISCORD</h4>
     </div>
 </section>
-<!--Fin Noticias Breves-->     
+<!--FIN ASIDE-->
 </body>
 <!--FIN BODY-->
 <!--FOOTER-->
 <footer>
     &copy; Derechos Reservados - 1991 <!--simbolo derechos reservados -->
+    <div class="container">
+      <input type="text" placeholder="Buscar">
+      <div class="btn">
+        <i class="search"></i>
+      </div>
+    </div>
 </footer>
 <!--FIN FOOTER-->
 </html>
