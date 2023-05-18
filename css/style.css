@@ -149,7 +149,7 @@ input {
   row-gap: 20px;
   list-style: none;
   padding: 15px;
-  color: white;
+  color: rgb(181, 182, 177);
   text-align: justify;
 }
 #noticias img{
@@ -168,7 +168,7 @@ input {
 }
 #noticias h4 a{
   text-decoration: none;
-  color: #959197;
+  color: #f5ecf9;
 }
 .noticias-breves{
   position: relative;
@@ -197,7 +197,7 @@ input {
 article img{
   float: left;
   border-width: 5px;
-  border-style: solid;
+  border-style:inherit;
   margin: -15px 15px 10px 5px;
   border-radius: 16px;
   height: 100px;
@@ -206,4 +206,16 @@ article img{
 p a{
   color: aquamarine;
 }
+.JuegosMovil{
+  position: relative;
+  border: 4px;
+  border-radius: 16px;
+  background:linear-gradient(#720774, #86efec) ;
+  background-clip: padding-box;
+  padding: 12.5px;
+  margin: 5px ;
+  border-style:inherit;
+  width: 1100px;
+}
+
 /*fin noticias breves*/
