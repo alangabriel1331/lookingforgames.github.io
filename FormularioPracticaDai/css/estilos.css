@@ -27,7 +27,7 @@ main {
 }
 .formulario {
     display: grid; 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto;
     gap: 20px;
 }
 
@@ -45,7 +45,7 @@ main {
 
 .formulario__input {
    width: 100%;
-   background: floralwhite ; 
+   background: rgb(238, 240, 241) ; 
    border: 3px solid transparent;
    border-radius: 3px;
    height: 45px;
@@ -55,9 +55,9 @@ main {
 }
 
 .formulario__input:focus {
-    border: 3px solid  #bc9fec;
+    border: 3px solid  #9042bd;
     outline: none;
-    box-shadow: 3px 0px 30px rgba(46, 8, 182, 0.4);    
+    box-shadow: 3px 0px 30px rgba(8, 180, 214, 0.4);    
 }
 
 .formulario__input-error {
@@ -92,7 +92,7 @@ main {
 .formulario__mensaje {
     height: 45px;
     line-height: 50px;
-    background: #69424e;
+    background: #323158;
     padding: 0 15px;
     border-radius: 3px;
     display: none;
@@ -115,7 +115,7 @@ main {
     line-height: 45px;
     width: 30px;
     background: #4c3d64;
-    color: aliceblue;
+    color: rgb(50, 159, 255);
     font-weight: bold;
     border: none;
     border-radius: 3px;
@@ -127,7 +127,7 @@ main {
 }
 .formulario__mensaje-exito {
     font-size: 14px;
-    color: #1b0e2e;
+    color: #5d09db;
     display: none;
 }
 
@@ -152,10 +152,14 @@ main {
     rgb(235, 11, 104) ;
 }
 
+.formulario__input #contacto input{
+    height: 200px;
+}
+
 /* ----- ----- Mediaquieries ----- ----- */
  @media screen and (max-width: 800px) {
     .formulario {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
 
     .formulario__grupo-terminos,
@@ -166,4 +170,5 @@ main {
     .formulario__btn {
         width: 100%;
     }
- }  
+    
+}  
