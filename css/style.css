@@ -168,7 +168,7 @@ input {
 }
 #noticias h4 a{
   text-decoration: none;
-  color: #959197;
+  color: #f5ecf9;
 }
 .noticias-breves{
   position: relative;
@@ -197,9 +197,65 @@ input {
 article img{
   float: left;
   border-width: 5px;
-  border-style: solid;
+  border-style:inherit;
   margin: -15px 15px 10px 5px;
   border-radius: 16px;
+  height: 100px;
+  width: 300px;
+}
+p a{
+  color: aquamarine;
+}
+.JuegosMovil{
+  position:relative;
+  row-gap: 20px;
+  border: 4px;
+  border-radius: 16px;
+  background:linear-gradient(#720774, #49eae5) ;
+  background-clip: padding-box;
+  padding: 12.5px;
+  margin: 5px ;
+  border-style:inherit;
 }
 
+h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+} 
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
+} 
 /*fin noticias breves*/
+/*Comienzo de Api*/
+.aside{
+  color: antiquewhite;
+}
+
+/*Fin de Api*/
+
+/*Comienzo Redes*/
+.widget img {
+  position: relative;
+  border-width: 5px;
+  border-style: inherit;
+  margin: -15px 15px 10px 5px;
+  border-radius: 70px;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  align-content: center;
+line-height: 50px;
+border-radius: 50%;
+text-align: center;
+cursor: pointer;
+transition: .5s;
+}
+h4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold; 
+  color: antiquewhite;
+}
+
+/*Fin de Redes/
+
