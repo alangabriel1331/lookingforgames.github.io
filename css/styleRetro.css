@@ -19,7 +19,8 @@ h2 {
 
 body {
     
-    background:linear-gradient(#0f0f0f,#8e8c92);
+    background-image: url("../images/Retro/fondoretro.png");
+    
     color: rgb(48, 62, 248);   
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
     
@@ -114,9 +115,9 @@ li:last-child {
 }
 
 #playstation .contJuego:hover {
-    background-color: #757379;
+    background-color: #0abbb2;
 }
 
 #playstation h2 {
-    color: #5d5c61;
+    color: #0abbb2;
 }
