@@ -1,15 +1,12 @@
 const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
-
 const expresiones = {
   apellido:  /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
   nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
   correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
   telefono: /^\d{7,14}$/, // 7 a 14 numeros.
   contacto: /^[a-zA-ZÀ-ÿ\s]{1,400}$/
-
 }
-
 const campos = {
   apellido: false,
   nombre: false,
@@ -17,7 +14,6 @@ const campos = {
   telefono: false,
   contacto: false,
 }
-
 const validarFormulario = (e) => {
   switch (e.target.name) {
     case "apellido":
@@ -35,12 +31,8 @@ const validarFormulario = (e) => {
     case "contacto":
       validarCampo(expresiones.contacto, e.target, 'contacto');
       break;
-  
-
-
-  }
+    }
 }
-
 const validarCampo = (expresion, input, campo) => {
   if (expresion.test(input.value)) {
     document.getElementById(`grupo__${campo}`).classList.remove('formulario__grupo-incorrecto');
@@ -58,29 +50,20 @@ const validarCampo = (expresion, input, campo) => {
     campos[campo] = false;
   }
 }
-
-
 inputs.forEach((input) => {
   input.addEventListener('keyup', validarFormulario);
   input.addEventListener('blur', validarFormulario);
-});
-
+}
+);
 formulario.addEventListener('submit', (e) => {
   e.preventDefault();
-
   const terminos = document.getElementById('terminos')
-
   if (campos.apellido && campos.nombre && campos.correo && campos.telefono && campos.contacto && terminos) {
     formulario.reset();
-
     document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
     setTimeout(() => {  
       document.getElementById('formulario__mensaje-exito').classList.remove('formulario__mensaje-exito-activo');
     }, 5000);
-
-
   }
-
-
-});
-
+}
+);
