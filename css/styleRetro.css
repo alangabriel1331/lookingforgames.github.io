@@ -1,5 +1,5 @@
 html {
-    background: linear-gradient(#000, #94999e)  ;
+    background-image: url("../images/imagesRetro/fondogris.gif");
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 /************************************* NAVBAR *************************************/
@@ -101,11 +101,18 @@ h2{
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     font-size: 30pt;   
+  
 }
 
+
+
 body {
-    
-    background-image: url("../images/Retro/fondoretro.png");
+    background-image: url(../images/fondo.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
     
     color: rgb(48, 62, 248);   
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
@@ -152,11 +159,12 @@ li:last-child {
     object-fit: cover;
     width: 90%;
     height: 14rem;
+    margin-bottom: 20px;
     /* background-color: rgb(61, 35, 77); */
 }
 .contJuego  h3{
     /* background-color: rgb(120, 89, 179); */
-    padding: 0px 5px 10px 20px;
+    padding: 0px 5px 0px 20px;
     text-align: left;
 }
 .contJuego{ 
@@ -172,19 +180,38 @@ li:last-child {
     background-color: #1344e6;
 }
 .contConsola {
-    background-color: rgb(0, 0, 0);
-    width: 90%;
+    background:rgba(0, 0, 0, .50);
+    width: 80%;
     margin: 0 auto;
+    margin-top: 50px;
 }
 #nintendo .contJuego:hover{
     background-color: rgb(221, 39, 26);
 }
-#nintendo h2 {
-    color:#df1c1c;    
+#nintendo h2 img{
+    color:#df1c1c; 
+    height: 120px;   
+    margin: 0 35%;
 }
 #playstation .contJuego:hover {
     background-color: #0abbb2;
 }
-#playstation h2 {
+#playstation h2 img{
     color: #0abbb2;
+    height: 100px;
+    margin: 0 30%;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
+#sega h2 img{
+    color: #1023cc;
+    height: 200px;
+    margin: 0 35%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    
+    
+}
+

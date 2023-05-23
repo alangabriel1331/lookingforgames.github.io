@@ -13,6 +13,7 @@ const campos = {
   correo: false,
   telefono: false,
   contacto: false,
+  social: false,
 }
 const validarFormulario = (e) => {
   switch (e.target.name) {
@@ -30,6 +31,9 @@ const validarFormulario = (e) => {
       break;
     case "contacto":
       validarCampo(expresiones.contacto, e.target, 'contacto');
+      break;
+      case "social":
+      validarCampo(expresiones.social, e.target, 'social');
       break;
     }
 }
@@ -58,7 +62,7 @@ inputs.forEach((input) => {
 formulario.addEventListener('submit', (e) => {
   e.preventDefault();
   const terminos = document.getElementById('terminos')
-  if (campos.apellido && campos.nombre && campos.correo && campos.telefono && campos.contacto && terminos) {
+  if (campos.apellido && campos.nombre && campos.correo && campos.telefono && campos.contacto && social && terminos) {
     formulario.reset();
     document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
     setTimeout(() => {  

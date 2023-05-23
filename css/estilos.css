@@ -25,6 +25,9 @@ main {
     margin:auto;
     padding: 40px;
 }
+
+
+
 .formulario {
     display: grid; 
     grid-template-columns: auto;
@@ -83,6 +86,7 @@ main {
     margin: right 10px;
 }
 
+
 .formulario__grupo-terminos,
 .formulario__mensaje,
 .formulario__grupo-btn-enviar {
@@ -134,6 +138,16 @@ main {
 .formulario__mensaje-exito-activo {
        display: block;    
 }
+
+.contenedor {
+    height: 300px;
+    width: 300px;
+    margin: 140px;
+}
+
+
+
+
 /* ----- ----- Estilos de Validacion ----- ----- */
 
 .formulario__grupo-correcto .formulario__validacion-estado {
@@ -155,6 +169,8 @@ main {
 .formulario__input #contacto input{
     height: 200px;
 }
+
+
 
 /* ----- ----- Mediaquieries ----- ----- */
  @media screen and (max-width: 800px) {
