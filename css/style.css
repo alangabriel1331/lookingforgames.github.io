@@ -335,6 +335,12 @@ main ul{
 .Nosotros li {
   display:block;
   float:none;
+  margin: 10px;
+  border-radius: 30px;
+  align-items:normal;
+  float: left;
+  border: 2.5px #43d3d0;
+  object-fit: cover;
 }
 
 .Persona{
@@ -353,9 +359,9 @@ main ul{
 .Persona h2:hover{
   display:flex;
   font-family:'Press Start 2P', cursive;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 25px;
-  margin: 15px 20px 10px 230px;
+  margin: 20px 20px 10px 230px;
   text-align:justify; 
   color: #12C2E9;
   margin: auto;
@@ -371,25 +377,29 @@ main ul{
   float: left;
   border: solid 2.5px #12C2E9;
   object-fit: cover;
+  opacity: 0.3;
 }
 .Persona img:hover{
   transform: scale(1.25);
   border: solid 2.5 aqua;
   transition: 300ms ease;
+  opacity: 0.8;
 }
 .Texto{
-  display:flex;
+  display:list-item;
+  
 }
 .Texto :hover{
   display:flex;
-  margin: 10px 30px 10px 230px;
-  text-align: justify;
+  margin: 20px 30px 10px 230px;
+  text-align:left;
   font-family: 'Roboto', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #ecf3f5;
   border: solid;
   border-radius: 15px;
-  transition: 200ms ease;
+  transition: 100ms ease;
+  border: #12C2E9;
 
 }
 
