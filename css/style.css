@@ -585,7 +585,32 @@ main ul{
   .formulario__btn {
       width: 100%;
   }
-}  
+}
+
+/***********************************↓↓↓    ASIDE ↓↓↓*************************************/
+.api-location li{
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+.api-location p{
+text-align: center;
+}
+
+.api-location img{
+  width: 100%;
+  height: 20%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.api-location h3{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
 /*************************************↓↓↓ FOOTER ↓↓↓*************************************/
 .footer{
   display: flex;
