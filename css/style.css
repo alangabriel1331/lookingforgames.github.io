@@ -331,6 +331,76 @@ main ul{
   color: #fff;
 
 }
+/**************************** NOSOTROS ***************************************************/
+.Persona{
+  background-color: #12C2E9;
+  margin: 20px;
+  height: 150px;
+  border-radius: 36px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  list-style-type: none;  
+  width: 800px;
+}
+.Persona article{
+  display:block;
+  background-color:  rgba(0, 0, 0, .5);
+  border: solid #9400D3;
+  height: 170px;
+  width: 800PX;
+  border-radius: 36px;
+  margin: 40px 0;
+}
+.Persona img{
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 30px;
+  align-items: center;
+  float: left;
+  border: solid 2.5px #12C2E9;
+  object-fit: cover;
+}
+.Persona img:hover{
+  transform: scale(1.15);
+  border: solid 2.5 aqua;
+  transition: 300ms ease;
+}
+.Persona h2{
+  display:block;
+  font-family:'Press Start 2P', cursive;
+  font-weight: 900;
+  font-size: 25px;
+  margin: 15px 20px 0 230px;
+  text-align: justify; 
+}
+.Persona a{
+  display:block;
+  margin: 0 0 0 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #12C2E9;
+}
+.Persona a:hover{
+  color: aqua; 
+}
+.Persona p{
+  display:block;
+  margin: 10px 30px 10px 230px;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  overflow: hidden;
+  
+}
+.Persona p:hover{
+  transform: scale(1.15);
+  color: #12C2E9;
+  transition: 300ms ease;
+  text-decoration:double;
+}
 /*************************************↓↓↓ FORMULARIO ↓↓↓*************************************/
 .formulario__cuerpo {
   width: 100%;
