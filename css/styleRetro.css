@@ -97,6 +97,18 @@ img{
     float: left;
     opacity: 5;   
 } 
+.title{
+    display: flex;
+    position: relative;
+    background-color: #000000;
+    height: 70px;
+    border-radius: 16px 16px 0 0;
+  }
+  .title h1{
+    margin: auto;
+    font-family:'Press Start 2P', cursive;
+    color: #fff;
+  }
 h2{
     text-align: center;
     font-family: 'Press Start 2P', cursive;
